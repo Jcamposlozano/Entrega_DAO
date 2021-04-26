@@ -1,0 +1,17 @@
+[{
+        "marca": "AMD",
+        "partes": {
+            "procesador": "PROCESADOR AMD",
+            "memoria": "MEMORIA AMD",
+            "board": "BOARD AMD"
+        }
+    },
+    {
+        "marca": "INTEL",
+        "partes": {
+            "procesador": "PROCESADOR INTEL",
+            "memoria": "MEMORIA INTEL",
+            "board": "BOARD INTEL"
+        }
+    }
+]

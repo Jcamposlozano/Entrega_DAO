@@ -1,0 +1,13 @@
+<data>
+<procesadores title="AMD">
+    <procesador>PROCESADOR AMD</procesador>
+    <memoria>MEMORIA AMD</memoria>
+    <board>BOARD AMD</board>
+</procesadores>
+<procesadores title="INTEL">
+   <procesador>PROCESADOR INTEL</procesador>
+    <memoria>MEMORIA INTEL</memoria>
+    <board>BOARD INTEL</board> 
+</procesadores>
+</data>
+    
