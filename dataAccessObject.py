@@ -9,9 +9,24 @@ class DataAccessObjectJson:
     def readObject(self, **kwargs):
         with open('./data/data.json') as json_file:
             data = json.load(json_file)
-            for p in data:
-                if p["marca"] == kwargs["marca"]:
-                    print(p["partes"][str(kwargs["partes"]).lower()], "SOURCE: JSON")
+            for c in data:
+                if c["componentes"]["marca"] == kwargs["marca"]:
+                    print(c["componentes"]["partes"][str(kwargs["partes"]).lower()])
+                        
+
+
+    @abstractmethod
+    def readComputador(self, **kwargs):
+        with open('./data/data.json') as json_file:
+            data = json.load(json_file)
+            for c in data:
+                if c["computador"] == kwargs["computador"]:
+                    print("computador", c["computador"])
+                    print("**** marca = ",c["componentes"]["marca"],"****")
+                    
+                    for p, v in c["componentes"]["partes"].items():
+                        print(p," = ", v)
+
 
 class DataAccessObjectXml:
 
@@ -26,4 +41,6 @@ class DataAccessObjectXml:
                 for subelem in elem:
                     if str(subelem.tag).lower() == str(kwargs["partes"]).lower():
                         print(subelem.text, "SOURCE: XML")
-
+    @abstractmethod
+    def readComputador(self, **kwargs):
+        pass

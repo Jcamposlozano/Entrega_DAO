@@ -1,17 +1,23 @@
 [{
-        "marca": "AMD",
-        "partes": {
-            "procesador": "PROCESADOR AMD",
-            "memoria": "MEMORIA AMD",
-            "board": "BOARD AMD"
+        "computador": "PC 1",
+        "componentes": {
+            "marca": "AMD",
+            "partes": {
+                "procesador": "PROCESADOR AMD",
+                "memoria": "MEMORIA AMD",
+                "board": "BOARD AMD"
+            }
         }
     },
     {
-        "marca": "INTEL",
-        "partes": {
-            "procesador": "PROCESADOR INTEL",
-            "memoria": "MEMORIA INTEL",
-            "board": "BOARD INTEL"
+        "computador": "PC 2",
+        "componentes": {
+            "marca": "INTEL",
+            "partes": {
+                "procesador": "PROCESADOR INTEL",
+                "memoria": "MEMORIA INTEL",
+                "board": "BOARD INTEL"
+            }
         }
     }
 ]

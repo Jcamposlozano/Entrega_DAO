@@ -3,15 +3,16 @@ from dataAccessObject import *
 
 class FabricaAbstracta(ABC):
     @abstractmethod
-    def readProcesador(self, **kwargs):
+    def readFabricas(self, **kwargs):
         pass
 
 class FabricaJson(FabricaAbstracta):
 
-    def readProcesador(self, **kwargs):
+    def readFabricas(self, **kwargs):
         return DataAccessObjectJson()
 
 class FabricaXml(FabricaAbstracta):
 
-    def readProcesador(self, **kwargs):
+    def readFabricas(self, **kwargs):
         return DataAccessObjectXml()
+
