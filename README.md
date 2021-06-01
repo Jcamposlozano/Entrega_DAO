@@ -5,6 +5,38 @@
 ** Edwin Alfonso Correa Torres Codigo: 20211099024 **
 
 
-Se realiza entrega de la exportación del Archi y del backup en XML.
-Se realzia entrega de documentos relacionando las vistas.
+----------------------------------
+- **1:** (Tienda/imagenes/1.png)
+----------------------------------
+- **2:** (Tienda/imagenes/2.png)
+----------------------------------
+- **3:** (Tienda/imagenes/3.png)
+----------------------------------
+- **4:** (Tienda/imagenes/4.png)
+----------------------------------
+- **5:** (Tienda/imagenes/5.png)
+----------------------------------
+- **6:** (Tienda/imagenes/6.png)
+----------------------------------
+- **7:** (Tienda/imagenes/7.png)
+----------------------------------
+- **8:** (Tienda/imagenes/8.png)
+----------------------------------
+- **9:** (Tienda/imagenes/9.png)
+----------------------------------
+- **10:** (Tienda/imagenes/10.png)
+----------------------------------
+- **11:** (Tienda/imagenes/11.png)
+----------------------------------
+- **12:** (Tienda/imagenes/12.png)
+----------------------------------
+- **13:** (Tienda/imagenes/13.png)
+----------------------------------
+- **14:** (Tienda/imagenes/14.png)
+----------------------------------
+- **15:** (Tienda/imagenes/15.png)
+----------------------------------
+- **16:** (Tienda/imagenes/16.png)
+----------------------------------
+- **17:** (Tienda/imagenes/17.png)
 
